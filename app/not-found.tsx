@@ -14,7 +14,7 @@ export default function NotFound() {
           <p className="lead">The page you’re looking for doesn’t exist or has moved. Head back to the home page or pick a destination below.</p>
           <div className="cta-btns" style={{ marginTop: 32 }}>
             <Link href="/" className="btn btn-primary">Back to Home</Link>
-            <Link href="/solutions" className="btn btn-outline">View Solutions →</Link>
+            <Link href="/solution" className="btn btn-outline">View Solution →</Link>
           </div>
         </div>
       </div>

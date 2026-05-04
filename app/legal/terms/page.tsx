@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service',
+  title: 'Terms of Services',
   description: 'Terms governing the use of the Omnikeea LTD website and platform.',
 };
 
@@ -11,7 +11,7 @@ export default function TermsPage() {
     <>
       <PageHero
         eyebrow="Legal"
-        title="Terms of Service"
+        title="Terms of Services"
         lead="The terms governing your access to and use of the Omnikeea website and any technology services provided by Omnikeea LTD."
       />
       <section className="section-pad" style={{ paddingTop: 40 }}>

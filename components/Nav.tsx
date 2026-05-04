@@ -6,10 +6,10 @@ import { useState } from 'react';
 import LogoMark from './LogoMark';
 
 const links = [
-  { href: '/solutions', label: 'Solutions' },
-  { href: '/technology', label: 'Technology' },
-  { href: '/industries', label: 'Industries' },
-  { href: '/company', label: 'Company' },
+  { href: '/product', label: 'Product' },
+  { href: '/solution', label: 'Solution' },
+  { href: '/partners', label: 'For Partners' },
+  { href: '/careers', label: 'Careers' },
 ];
 
 export default function Nav() {
@@ -32,7 +32,7 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-        <Link href="/contact" className="nav-cta">Get in Touch</Link>
+        <Link href="/contact" className="nav-cta">Contact us</Link>
         <button
           type="button"
           className="nav-toggle"

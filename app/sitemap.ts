@@ -2,7 +2,18 @@ import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://omnikeea.com';
-  const routes = ['', '/solutions', '/technology', '/industries', '/company', '/contact', '/legal/privacy', '/legal/terms'];
+  const routes = [
+    '',
+    '/product',
+    '/solution',
+    '/partners',
+    '/careers',
+    '/contact',
+    '/legal/privacy',
+    '/legal/terms',
+    '/legal/cookies',
+    '/legal/disclaimer',
+  ];
   return routes.map((r) => ({
     url: `${base}${r}`,
     lastModified: new Date(),

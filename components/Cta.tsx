@@ -15,9 +15,9 @@ export default function Cta({
   title = (<>Ready to integrate your <span className="grad">payment infrastructure?</span></>),
   body = 'Connect with our technical team and explore how Omnikeea can support your e-commerce operation.',
   primaryHref = '/contact',
-  primaryLabel = 'Contact Our Team',
-  secondaryHref = '/solutions',
-  secondaryLabel = 'View Solutions →',
+  primaryLabel = 'Contact us',
+  secondaryHref = '/solution',
+  secondaryLabel = 'View solution →',
 }: Props) {
   return (
     <section className="cta-section">

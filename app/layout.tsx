@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s — Omnikeea LTD',
   },
   description:
-    'Omnikeea LTD builds advanced software infrastructure that connects e-commerce businesses with licensed payment institutions. Technology-only — non-financial entity.',
+    'Omnikeea LTD builds advanced software infrastructure that connects e-commerce businesses with licensed payment institutions — securely, scalably and globally.',
   icons: {
     icon: [
       {

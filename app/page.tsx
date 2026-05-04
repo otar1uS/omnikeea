@@ -25,11 +25,11 @@ export default function HomePage() {
                 payment ecosystems
               </h1>
               <p className="hero-sub">
-                Omnikeea LTD builds advanced software infrastructure that connects e-commerce businesses with licensed payment institutions — securely, scalably, and globally. We build the technology, not the transactions.
+                Omnikeea LTD builds advanced software infrastructure that connects e-commerce businesses with licensed payment institutions — securely, scalably, and globally.
               </p>
               <div className="hero-actions">
-                <Link href="/contact" className="btn btn-primary">Talk to Engineering</Link>
-                <Link href="/technology" className="btn btn-outline">See How It Works →</Link>
+                <Link href="/contact" className="btn btn-primary">Contact us</Link>
+                <Link href="/product" className="btn btn-outline">See the product →</Link>
               </div>
               <div className="hero-meta">
                 <div className="hero-meta-item">
@@ -58,19 +58,19 @@ export default function HomePage() {
           <div className="what-grid">
             <div className="reveal">
               <div className="eyebrow">About Omnikeea</div>
-              <h2 className="h2" style={{ marginBottom: 24 }}>We build the technology — not the transactions</h2>
+              <h2 className="h2" style={{ marginBottom: 24 }}>Advanced software for modern e-commerce</h2>
               <p className="lead" style={{ marginBottom: 24 }}>
                 Omnikeea LTD is a technology company specializing in advanced software solutions for online businesses and financial service providers. Our platform delivers secure, scalable, customizable IT infrastructure designed to support seamless integrations with licensed payment institutions and other regulated partners.
               </p>
               <p className="lead" style={{ fontSize: 15 }}>
-                We focus exclusively on technology development, data connectivity, and workflow automation. All financial operations are performed by our licensed institutional partners — never by us.
+                We focus exclusively on technology development, data connectivity, and workflow automation — giving merchants a clean, modern integration into their licensed partners.
               </p>
               <br />
-              <Link href="/solutions" className="btn btn-outline">Explore the Platform →</Link>
+              <Link href="/solution" className="btn btn-outline">Explore the platform →</Link>
             </div>
             <div className="what-right reveal">
               {[
-                ['01', 'Pure Technology Provider', 'We design and build software infrastructure. We hold no payment licenses and execute no financial transactions.'],
+                ['01', 'Technology Provider', 'We design and build software infrastructure that integrates seamlessly with your licensed payment partners.'],
                 ['02', 'Secure & Scalable Architecture', 'Enterprise-grade infrastructure built to scale across global deployments with strict data security standards.'],
                 ['03', 'API-First Integration', 'Every module exposes clean APIs, enabling rapid integration with licensed PSPs and financial platforms.'],
                 ['04', 'E-Commerce Focused', 'Built for online business — merchant dashboards, analytics, and automation tailored to e-commerce operations.'],
@@ -104,8 +104,8 @@ export default function HomePage() {
               <div className="stat-label">Infrastructure availability</div>
             </div>
             <div className="stat-box reveal">
-              <div className="stat-num accent">IT</div>
-              <div className="stat-label">Technology-only — non-financial entity</div>
+              <div className="stat-num accent">API</div>
+              <div className="stat-label">First-class developer experience</div>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function HomePage() {
               <h2 className="h2">Everything your integration needs</h2>
             </div>
             <div className="reveal">
-              <p className="lead">Six purpose-built modules that enable e-commerce businesses to connect with licensed institutions and operate at scale — without ever touching the financial layer themselves.</p>
+              <p className="lead">Six purpose-built modules that enable e-commerce businesses to connect with their licensed institutions and operate at scale — through clean software interfaces.</p>
             </div>
           </div>
 
@@ -162,7 +162,7 @@ export default function HomePage() {
 
           <div className="mod-disclaimer reveal">
             <div>
-              <strong>Technology only:</strong> All platform features operate strictly as software functionality. Omnikeea LTD does not process, transmit, store, or execute financial transactions. All financial operations are performed exclusively by licensed institutions.
+              <strong>How we fit in:</strong> Omnikeea provides software functionality that connects merchants with their licensed payment partners. Financial operations are carried out by those licensed institutions.
             </div>
           </div>
         </div>
@@ -174,14 +174,14 @@ export default function HomePage() {
           <div className="how-head reveal">
             <div className="eyebrow">How It Works</div>
             <h2 className="h2" style={{ marginBottom: 18 }}>From integration to scale in four steps</h2>
-            <p className="lead">A clean technical path from first API call to fully orchestrated production traffic — with licensed partners handling all financial activity.</p>
+            <p className="lead">A clean technical path from first API call to fully orchestrated production traffic — built for speed, observability and global scale.</p>
           </div>
           <div className="how-grid">
             {[
               ['STEP 01', 'Connect', 'Integrate via our REST and webhook APIs. SDKs, sandbox environments, and reference implementations get you wired up in days, not quarters.'],
               ['STEP 02', 'Configure', 'Define provider routing, fallback logic, regional rules and operational policies through our configuration modules — no engineering rebuild required.'],
               ['STEP 03', 'Orchestrate', 'Our orchestration engine sequences provider workflows across licensed PSPs, banks, and regulated entities — automated, observable, retry-safe.'],
-              ['STEP 04', 'Operate', 'Run real-time dashboards, behavioral analytics, and reporting. Scale globally while licensed partners keep handling the regulated activity.'],
+              ['STEP 04', 'Operate', 'Run real-time dashboards, behavioral analytics, and reporting. Scale globally with full operational visibility.'],
             ].map(([n, h, p]) => (
               <div className="how-step reveal" key={n}>
                 <div className="how-step-num">{n}</div>
@@ -199,15 +199,15 @@ export default function HomePage() {
           <div className="framework-grid">
             <div className="reveal">
               <div className="eyebrow">Licensed Partners</div>
-              <h2 className="h2" style={{ marginBottom: 24 }}>A clear division of responsibility</h2>
+              <h2 className="h2" style={{ marginBottom: 24 }}>One integration, a whole network of providers</h2>
               <p className="lead" style={{ marginBottom: 48 }}>
-                We collaborate with a network of licensed financial institutions, payment service providers, and regulated entities. Our technology enables efficient connection while maintaining regulatory clarity.
+                We collaborate with a network of licensed financial institutions, payment service providers, and regulated entities — so your team gets a single, modern technical interface to a wide ecosystem.
               </p>
               <div className="framework-steps">
                 {[
-                  ['01', 'Technical Integration Only', 'Our role is strictly limited to technical integration and infrastructure support. We build the connection — licensed partners manage what flows through it.'],
-                  ['02', 'Financial Operations by Licensed Bodies', 'All financial operations are performed exclusively by licensed institutions. We never hold, transmit, or process funds.'],
-                  ['03', 'Regulated Activities Stay Authorized', 'All regulated activities remain fully under the responsibility of authorized providers. Our platform provides the technical bridge, not the regulated service.'],
+                  ['01', 'Technical integration support', 'We provide the integration layer, the SDKs and the operational tooling that connect your stack to licensed partners.'],
+                  ['02', 'Powered by licensed institutions', 'Financial operations run on the rails of established licensed institutions, with the regulatory coverage you expect.'],
+                  ['03', 'Built for global scale', 'Modular architecture, observable workflows and configuration-driven routing — engineered to grow with your business.'],
                 ].map(([n, h, p]) => (
                   <div className="fw-step" key={n}>
                     <div className="fw-step-num">{n}</div>
@@ -222,23 +222,23 @@ export default function HomePage() {
 
             <div className="reveal">
               <div className="resp-diagram">
-                <div className="resp-title">Responsibility Framework</div>
+                <div className="resp-title">How the integration is layered</div>
                 <div className="resp-layer licensed">
                   <div className="resp-layer-tag">Licensed Institutions</div>
-                  <div className="resp-layer-name">Financial Operations</div>
-                  <div className="resp-layer-desc">Payment processing, fund movement, regulatory compliance — fully handled by licensed PSPs and financial institutions.</div>
+                  <div className="resp-layer-name">Payment Rails</div>
+                  <div className="resp-layer-desc">Established PSPs and financial institutions that power payment flows for your business.</div>
                 </div>
                 <div className="resp-arrow">↕</div>
                 <div className="resp-layer omni">
                   <div className="resp-layer-tag">Omnikeea LTD</div>
                   <div className="resp-layer-name">Technical Integration Layer</div>
-                  <div className="resp-layer-desc">API orchestration, data exchange, analytics, merchant tooling — software infrastructure only, no financial activity.</div>
+                  <div className="resp-layer-desc">API orchestration, data exchange, analytics and merchant tooling — the software backbone that ties everything together.</div>
                 </div>
                 <div className="resp-arrow">↕</div>
                 <div className="resp-layer merchant">
                   <div className="resp-layer-tag">Your Business</div>
                   <div className="resp-layer-name">E-Commerce Merchant</div>
-                  <div className="resp-layer-desc">Access to licensed payment infrastructure through clean APIs and dashboards, with full operational visibility.</div>
+                  <div className="resp-layer-desc">A single, modern interface to a network of licensed providers, with full operational visibility.</div>
                 </div>
               </div>
             </div>

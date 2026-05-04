@@ -548,3 +548,17 @@ footer { background: var(--bg1); border-top: 1px solid var(--border); padding: 8
   .global-points { grid-template-columns: 1fr; }
   .form-card { padding: 28px 24px; }
 }
+
+/* Footer Contact CTA row */
+.footer-cta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px 0 32px;
+  flex-wrap: wrap;
+}
+.footer-cta-row h3 { margin-bottom: 8px; }
+@media (max-width: 640px) {
+  .footer-cta-row { flex-direction: column; align-items: flex-start; }
+}
