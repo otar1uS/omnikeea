@@ -1,0 +1,38 @@
+/* Omnikeea — brand color tokens
+ * Drop-in CSS custom properties matching the live site.
+ * Modern values use oklch(); hex fallbacks are provided for legacy tooling.
+ */
+
+:root {
+  /* ---- Backgrounds (dark theme) ---- */
+  --ok-bg:        #030508;   /* page background */
+  --ok-bg-1:      #07090f;   /* nav / elevated surface */
+  --ok-bg-2:      #0d1018;   /* card surface */
+  --ok-bg-3:      #131720;   /* hover / active surface */
+
+  /* ---- Text ---- */
+  --ok-text:      #edf0f7;   /* primary text */
+  --ok-text-mid:  #7e8ba3;   /* secondary text */
+  --ok-text-dim:  #404c62;   /* tertiary / disabled */
+
+  /* ---- Borders ---- */
+  --ok-border:    rgba(255, 255, 255, 0.06);
+  --ok-border-hi: rgba(255, 255, 255, 0.12);
+
+  /* ---- Brand accent (teal/mint) ---- */
+  --ok-accent:        oklch(0.78 0.16 168);            /* primary — #00d9a7 */
+  --ok-accent-hex:    #00d9a7;
+  --ok-accent-dim:    oklch(0.52 0.13 168);            /* darker — #0e8466 */
+  --ok-accent-dim-hex:#0e8466;
+  --ok-accent-glow:   oklch(0.78 0.16 168 / 0.14);     /* soft glow */
+  --ok-accent-glow-2: oklch(0.78 0.16 168 / 0.06);     /* fainter glow */
+
+  /* ---- Secondary accent (warm coral, used in logo gradient) ---- */
+  --ok-accent-warm:     #d97a4f;
+  --ok-accent-warm-oklch: oklch(0.66 0.18 30);
+
+  /* ---- Logo gradient stops ---- */
+  --ok-grad-start: #3aebc0;
+  --ok-grad-mid:   #00d9a7;
+  --ok-grad-end:   #d97a4f;
+}

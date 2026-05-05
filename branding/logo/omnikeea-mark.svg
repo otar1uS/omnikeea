@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ok-grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3aebc0"/>
+      <stop offset="55%" stop-color="#00d9a7"/>
+      <stop offset="100%" stop-color="#d97a4f"/>
+    </linearGradient>
+    <linearGradient id="ok-stroke" x1="0" y1="0" x2="0" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.55)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+    <radialGradient id="ok-glow" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.45)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Tile background -->
+  <rect x="14" y="14" width="484" height="484" rx="128" fill="url(#ok-grad)"/>
+  <rect x="14" y="14" width="484" height="484" rx="128" fill="url(#ok-glow)" opacity="0.6"/>
+  <rect x="21" y="21" width="470" height="470" rx="121" fill="none" stroke="url(#ok-stroke)" stroke-width="14"/>
+
+  <!-- O ring -->
+  <circle cx="193" cy="256" r="102" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round" opacity="0.96"/>
+
+  <!-- K -->
+  <g stroke="#ffffff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M318 159 L318 353"/>
+    <path d="M318 256 L404 162"/>
+    <path d="M318 256 L404 350"/>
+  </g>
+
+  <!-- Accent dot -->
+  <circle cx="193" cy="153" r="20" fill="#ffffff" opacity="0.92"/>
+</svg>

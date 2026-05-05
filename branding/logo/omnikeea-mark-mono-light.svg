@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Monochrome variant for light backgrounds -->
+  <rect x="14" y="14" width="484" height="484" rx="128" fill="#0d1018"/>
+
+  <circle cx="193" cy="256" r="102" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round"/>
+
+  <g stroke="#ffffff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M318 159 L318 353"/>
+    <path d="M318 256 L404 162"/>
+    <path d="M318 256 L404 350"/>
+  </g>
+
+  <circle cx="193" cy="153" r="20" fill="#ffffff"/>
+</svg>
