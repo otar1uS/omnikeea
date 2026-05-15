@@ -7,7 +7,7 @@ export default function SubPage() {
       <PageHero
         eyebrow="Products / White Label"
         title={<><span className="grad">White Label Platform</span></>}
-        lead="Launch and scale your own payment solutions with Omnikeea's robust infrastructure."
+        lead="Launch and scale your own branded integration technology platform with Omnikeea's robust software infrastructure."
       />
 
       <section className="section-pad">
@@ -19,7 +19,7 @@ export default function SubPage() {
             </div>
             <div className="reveal">
               <p className="lead">
-                Deploy a fully branded payment gateway solution for your merchants without the overhead of building it from scratch. We provide the technology, you own the relationship.
+                Deploy a fully branded technology toolkit for your customers without the overhead of building it from scratch. We provide the software, you own the relationship — all regulated financial operations remain with your licensed third-party providers.
               </p>
             </div>
           </div>
@@ -27,13 +27,13 @@ export default function SubPage() {
           <div className="reveal" style={{ marginTop: 60, padding: 40, background: 'var(--bg2)', border: '1px solid var(--border)', borderRadius: 16 }}>
             <h3 style={{ fontFamily: 'var(--ff-head)', fontSize: 24, marginBottom: 16 }}>Technical implementation</h3>
             <p style={{ color: 'var(--text-mid)', lineHeight: 1.7, marginBottom: 24 }}>
-              Omnikeea provides the technical software infrastructure necessary to deploy this capability globally. Our system operates purely as a technology layer — we do not process funds, hold balances, or act as a merchant of record. All financial operations are managed through your integrated, licensed payment partners.
+              Omnikeea provides the technical software infrastructure necessary to deploy this capability globally. Our system operates purely as a technology layer — we do not process, store, transmit or handle financial transactions, hold balances, or act as a merchant of record. All regulated financial operations are performed exclusively by your licensed third-party providers.
             </p>
             <Link href="/contact" className="btn btn-primary">Discuss Integration</Link>
           </div>
         </div>
       </section>
-      
+
       <section className="section-pad" style={{ background: 'var(--bg1)' }}>
         <div className="container">
           <div className="sec-head reveal">
@@ -41,7 +41,7 @@ export default function SubPage() {
               <h2 className="h2">Why choose Omnikeea?</h2>
             </div>
             <div>
-              <p className="lead">Built for scale, security, and maximum performance across all markets.</p>
+              <p className="lead">Built for scale, security, and maximum technical performance across all markets.</p>
             </div>
           </div>
           <div className="sec-grid reveal">
@@ -51,15 +51,15 @@ export default function SubPage() {
             </div>
             <div className="sec-card">
               <h3>High Availability</h3>
-              <p>Redundant systems ensuring 99.99% uptime for your critical payment flows.</p>
+              <p>Redundant systems ensuring 99.99% uptime for your critical integration workflows.</p>
             </div>
             <div className="sec-card">
               <h3>Agnostic Layer</h3>
-              <p>Connect with any PSP, acquirer, or alternative payment method seamlessly.</p>
+              <p>Connect with any licensed third-party service provider through a single technical interface.</p>
             </div>
             <div className="sec-card">
-              <h3>Advanced Routing</h3>
-              <p>Intelligent, rules-based engines to optimize approval rates and reduce costs.</p>
+              <h3>Configurable Workflow Rules</h3>
+              <p>Configurable, rules-based engines to optimise technical performance and reduce operational overhead.</p>
             </div>
           </div>
         </div>

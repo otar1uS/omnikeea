@@ -20,7 +20,7 @@ export default function TermsPage() {
             <div className="legal-meta">Last updated: 27 April 2026 · By using this website you agree to these terms.</div>
 
             <h2>1. Technology-Only Scope</h2>
-            <p>Omnikeea LTD is a technology and payment-gateway-solution provider. We do not hold any payment licence and we do not process, transmit, store, or execute financial transactions. All financial operations are performed exclusively by licensed institutions.</p>
+            <p>Omnikeea LTD is a pure technology provider, delivering software tools and integration technology. We do not hold any financial licence and we do not process, store, transmit, or handle financial transactions. All regulated financial operations are performed exclusively by licensed third-party institutions.</p>
 
             <h2>2. Acceptable Use</h2>
             <ul>
@@ -29,8 +29,8 @@ export default function TermsPage() {
               <li>You may not use the platform from a sanctioned or restricted territory listed in our footer.</li>
             </ul>
 
-            <h2>3. Licensed Partners</h2>
-            <p>Where our technology connects you with licensed financial institutions, payment service providers, or regulated entities, your relationship with those partners is governed by their own terms. All regulated activities remain the responsibility of those authorised providers.</p>
+            <h2>3. Licensed Third-Party Providers</h2>
+            <p>Where our technology helps you integrate with licensed third-party financial institutions, service providers, or other regulated entities, your relationship with those providers is governed by their own terms. All regulated activities remain the sole responsibility of those authorised providers.</p>
 
             <h2>4. Intellectual Property</h2>
             <p>All content on this site, including the Omnikeea name and logo, is owned by Omnikeea LTD or its licensors. You may not use it without our written consent.</p>

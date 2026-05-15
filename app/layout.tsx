@@ -7,11 +7,11 @@ import Reveal from '@/components/Reveal';
 export const metadata: Metadata = {
   metadataBase: new URL('https://omnikeea.com'),
   title: {
-    default: 'Omnikeea LTD — Payment Technology Infrastructure for E-Commerce',
+    default: 'Omnikeea LTD — Integration Technology for Online Platforms',
     template: '%s — Omnikeea LTD',
   },
   description:
-    'Omnikeea LTD builds advanced software infrastructure that connects e-commerce businesses with licensed payment institutions — securely, scalably and globally.',
+    'Omnikeea LTD provides technical connectivity tools that help businesses integrate their systems with licensed third-party financial service providers — securely, scalably and globally.',
   icons: {
     icon: [
       {

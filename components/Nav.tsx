@@ -9,20 +9,20 @@ import LogoMark from './LogoMark';
 
 const productItems = [
   {
-    title: 'Orchestration',
-    desc: 'Orchestrate your payments, ensuring every transaction performs',
+    title: 'Integration Layer',
+    desc: 'Coordinate technical workflows across your licensed third-party providers',
     href: '/product/orchestration',
     d: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5',
   },
   {
     title: 'Dynamic Cashier',
-    desc: 'Deliver seamless, localised payment experiences',
+    desc: 'Deliver seamless, localised checkout experiences',
     href: '/product/dynamic-cashier',
     d: 'M3 10h18M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2zm2 10h4',
   },
   {
     title: 'White Label',
-    desc: 'Launch and scale your own payment solutions with Omnikeea',
+    desc: 'Launch and scale your own branded technology platform with Omnikeea',
     href: '/product/white-label',
     d: 'M3 7h18M3 12h18M3 17h12',
   },
@@ -30,26 +30,26 @@ const productItems = [
 
 const solutionItems = [
   {
-    title: 'Optimise payments performance',
-    desc: 'Increase acceptance rates and mitigate costs',
+    title: 'Optimise integration performance',
+    desc: 'Improve technical performance and reduce operational overhead',
     href: '/solution/optimise-payments',
     d: 'M3 17l6-6 4 4 8-8M14 7h7v7',
   },
   {
     title: 'Enhance infrastructure',
-    desc: 'Build scalable infrastructure for global payment growth',
+    desc: 'Build scalable infrastructure for global integration growth',
     href: '/solution/enhance-infrastructure',
     d: 'M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4',
   },
   {
-    title: 'Deliver frictionless global payment experiences',
-    desc: 'Create fully branded, global payment journeys',
+    title: 'Deliver frictionless global experiences',
+    desc: 'Create fully branded, global checkout journeys',
     href: '/solution/deliver-experiences',
     d: 'M3 12a9 9 0 1018 0 9 9 0 00-18 0zm9-9v18M3 12h18',
   },
   {
-    title: 'Protect payments and reduce risk',
-    desc: 'Strengthen security and minimise payment risk',
+    title: 'Protect platforms and reduce technical risk',
+    desc: 'Strengthen security and improve system reliability',
     href: '/solution/protect-payments',
     d: 'M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z',
   },
@@ -82,7 +82,7 @@ const links: DropdownLink[] = [
     items: productItems,
     viewAllLabel: 'View all products',
     viewAllHref: '/product',
-    pageDesc: 'Explore Omnikeea\'s comprehensive payment technology platform, including orchestration, dynamic cashier and white label solutions built to optimise performance and scale globally.',
+    pageDesc: 'Explore Omnikeea\'s integration technology platform, including the integration layer, dynamic cashier and white label tools built to optimise technical performance and scale globally.',
   },
   {
     href: '/solution',
@@ -90,7 +90,7 @@ const links: DropdownLink[] = [
     items: solutionItems,
     viewAllLabel: 'View all solutions',
     viewAllHref: '/solution',
-    pageDesc: 'Solve complex payment challenges with solutions designed to optimise performance, strengthen infrastructure and deliver seamless, secure global experiences.',
+    pageDesc: 'Solve complex integration challenges with solutions designed to optimise technical performance, strengthen infrastructure and deliver seamless, secure global experiences.',
   },
   {
     href: '/partners',
@@ -98,7 +98,7 @@ const links: DropdownLink[] = [
     items: partnerItems,
     viewAllLabel: 'View all partners',
     viewAllHref: '/partners',
-    pageDesc: 'Partner with Omnikeea to deliver and monetise advanced payment solutions through our flexible Introducer programme.',
+    pageDesc: 'Partner with Omnikeea to deliver and monetise advanced integration technology through our flexible Introducer programme.',
   },
   { href: '/careers', label: 'Careers' },
 ];

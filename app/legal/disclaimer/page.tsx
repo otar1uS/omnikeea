@@ -18,14 +18,22 @@ export default function DisclaimerPage() {
       <section className="section-pad">
         <div className="container" style={{ maxWidth: 820 }}>
           <article className="reveal" style={{ display: 'grid', gap: 20 }}>
+            <div className="mod-disclaimer" style={{ marginTop: 0 }}>
+              <ul style={{ paddingLeft: 20, margin: 0, display: 'grid', gap: 10 }}>
+                <li>Omnikeea LTD is a pure technology provider. We do not process, store, transmit, or handle financial transactions.</li>
+                <li>All regulated financial services are performed exclusively by licensed third-party institutions.</li>
+                <li>Our role is limited to providing software tools and integration technology.</li>
+              </ul>
+            </div>
+
             <h3>1. Technology-only provider</h3>
             <p>
-              Omnikeea LTD is a technology company providing software infrastructure and integration tooling. Omnikeea LTD is not a bank, payment institution, electronic money institution, or any other type of regulated financial entity. Omnikeea LTD does not process, transmit, store or execute financial transactions.
+              Omnikeea LTD is a technology company providing software infrastructure and integration tooling. Omnikeea LTD is not a bank, payment institution, electronic money institution, or any other type of regulated financial entity. Omnikeea LTD does not process, store, transmit or handle financial transactions.
             </p>
 
-            <h3>2. Role of licensed partners</h3>
+            <h3>2. Role of licensed third-party providers</h3>
             <p>
-              All financial operations referenced on this website are performed exclusively by licensed financial institutions, payment service providers and other regulated entities. All regulated activities remain fully under the responsibility of those authorised providers. Our role is limited to technical integration and infrastructure support.
+              All financial operations referenced on this website are performed exclusively by licensed third-party financial institutions, service providers and other regulated entities. All regulated activities remain fully under the responsibility of those authorised providers. Our role is limited to technical integration and infrastructure support.
             </p>
 
             <h3>3. Informational purposes</h3>

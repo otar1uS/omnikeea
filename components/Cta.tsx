@@ -12,8 +12,8 @@ type Props = {
 
 export default function Cta({
   eyebrow = 'Get Started',
-  title = (<>Ready to integrate your <span className="grad">payment infrastructure?</span></>),
-  body = 'Connect with our technical team and explore how Omnikeea can support your e-commerce operation.',
+  title = (<>Ready to modernise your <span className="grad">integration infrastructure?</span></>),
+  body = 'Connect with our technical team and explore how Omnikeea can support your e-commerce integration.',
   primaryHref = '/contact',
   primaryLabel = 'Contact us',
   secondaryHref = '/solution',

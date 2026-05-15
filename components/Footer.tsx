@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="logo-word">Omnikeea</span>
             </Link>
             <p className="footer-desc">
-              Advanced software infrastructure for e-commerce businesses and payment technology integration.
+              Advanced integration technology for online platforms — software infrastructure that connects business systems with licensed third-party financial service providers.
             </p>
           </div>
           <div className="footer-col">
@@ -51,6 +51,17 @@ export default function Footer() {
               <li><Link href="/contact">Enquiry form</Link></li>
             </ul>
           </div>
+        </div>
+
+        <div className="footer-line" />
+
+        <div className="footer-sanctions">
+          <div className="footer-sanctions-label">Compliance Notice</div>
+          <ul className="footer-sanctions-text" style={{ listStyle: 'disc', paddingLeft: 20, margin: 0, display: 'grid', gap: 6 }}>
+            <li>Omnikeea LTD is a pure technology provider. We do not process, store, transmit, or handle financial transactions.</li>
+            <li>All regulated financial services are performed exclusively by licensed third-party institutions.</li>
+            <li>Our role is limited to providing software tools and integration technology.</li>
+          </ul>
         </div>
 
         <div className="footer-line" />

@@ -43,10 +43,11 @@ export default function ContactPage() {
               >
                 <h4 style={{ color: "var(--cyan)" }}>Important</h4>
                 <p>
-                  Omnikeea LTD is a technology provider only. We do not process
-                  payments and cannot assist with disputes, chargebacks,
-                  refunds, or any financial-operations queries. Please contact
-                  your licensed payment partner directly.
+                  Omnikeea LTD is a technology provider only. We do not process,
+                  store, transmit or handle financial transactions and cannot
+                  assist with disputes, chargebacks, refunds, or any
+                  financial-operations queries. Please contact your licensed
+                  third-party financial service provider directly.
                 </p>
               </div>
             </div>
@@ -56,3 +57,5 @@ export default function ContactPage() {
     </>
   );
 }
+
+

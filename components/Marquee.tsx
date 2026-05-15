@@ -1,6 +1,6 @@
 const ITEMS = [
-  'API Connectivity', 'Technical Orchestration', 'Merchant Dashboards',
-  'Risk Analytics', 'Data Exchange', 'Workflow Automation',
+  'API Integration', 'Unified Integration Layer', 'Operational Dashboards',
+  'System Behaviour Analytics', 'Data Exchange', 'Workflow Automation',
   'E-Commerce Solutions', 'Global Infrastructure', 'Secure Integration',
 ];
 

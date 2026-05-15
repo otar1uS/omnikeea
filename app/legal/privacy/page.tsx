@@ -20,7 +20,7 @@ export default function PrivacyPage() {
             <div className="legal-meta">Last updated: 27 April 2026 · This policy applies to omnikeea.com and the Omnikeea platform.</div>
 
             <h2>1. Who We Are</h2>
-            <p>Omnikeea LTD ("Omnikeea", "we", "us") is a technology company providing software infrastructure for e-commerce businesses to integrate with licensed payment institutions. We are not a financial institution and we do not process, transmit, store, or execute financial transactions.</p>
+            <p>Omnikeea LTD ("Omnikeea", "we", "us") is a technology company providing software infrastructure for e-commerce businesses to integrate with licensed third-party financial service providers. We are not a financial institution and we do not process, store, transmit, or handle financial transactions.</p>
 
             <h2>2. Information We Collect</h2>
             <p>We collect information you provide directly (such as when you fill out the contact form) and limited technical information your browser provides automatically.</p>

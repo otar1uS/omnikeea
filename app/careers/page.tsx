@@ -6,7 +6,7 @@ import Cta from '@/components/Cta';
 export const metadata: Metadata = {
   title: 'Careers',
   description:
-    'Join Omnikeea LTD. We are hiring a Social Media Content Editor to help shape the voice of our payment technology infrastructure brand.',
+    'Join Omnikeea LTD. We are hiring a Social Media Content Editor to help shape the voice of our integration technology brand.',
 };
 
 export default function CareersPage() {
@@ -15,7 +15,7 @@ export default function CareersPage() {
       <PageHero
         eyebrow="Careers"
         title={<>Help us build the <span className="grad">technical layer</span> behind global e-commerce</>}
-        lead="We are a young technology company building serious payment infrastructure. We hire carefully and we build deliberately."
+        lead="We are a young technology company building serious integration infrastructure. We hire carefully and we build deliberately."
       />
 
       <section className="section-pad">
@@ -29,7 +29,7 @@ export default function CareersPage() {
 
             <h4 style={{ marginTop: 32, marginBottom: 12 }}>About the role</h4>
             <p style={{ marginBottom: 16 }}>
-              You will own Omnikeea&apos;s social presence end-to-end — planning, writing, editing and publishing content across our channels. You will translate technical concepts (payment orchestration, integration, infrastructure) into clear, engaging content for a B2B audience.
+              You will own Omnikeea&apos;s social presence end-to-end — planning, writing, editing and publishing content across our channels. You will translate technical concepts (integration tooling, API connectivity, infrastructure) into clear, engaging content for a B2B audience.
             </p>
 
             <h4 style={{ marginTop: 28, marginBottom: 12 }}>What you will do</h4>
@@ -44,7 +44,7 @@ export default function CareersPage() {
             <ul style={{ paddingLeft: 22, marginBottom: 16 }}>
               <li>Strong writing and editing in English — concise, intentional, on-brand.</li>
               <li>Experience producing social content for B2B, fintech or technology brands is a plus.</li>
-              <li>Comfortable with technical topics and willing to learn payments infrastructure.</li>
+              <li>Comfortable with technical topics and willing to learn integration infrastructure.</li>
               <li>Reliable, organised, and able to ship work without close supervision.</li>
             </ul>
 
