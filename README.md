@@ -1,6 +1,6 @@
 # Omnikeea LTD — Marketing Site
 
-A multi-page Next.js (App Router, TypeScript) marketing site for Omnikeea LTD — a payment-technology infrastructure company (technology only, non-financial entity).
+A multi-page Next.js (App Router, TypeScript) marketing site for Omnikeea LTD — a pure technology provider delivering integration technology for online platforms (technology only, non-financial entity; we do not process, store, transmit or handle financial transactions).
 
 ## Pages
 
