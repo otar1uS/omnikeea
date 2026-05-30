@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
-import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -25,7 +24,21 @@ export default function ContactPage() {
         <div className="container">
           <div className="form-grid">
             <div className="reveal">
-              <ContactForm />
+              <div className="form-card">
+                <h3 style={{ marginTop: 0 }}>Send us an email</h3>
+                <p style={{ color: "var(--text-mid)" }}>
+                  Tell us about your stack, current providers, and what you’re
+                  trying to integrate. Click below to open your mail app — we’ll
+                  get back to you within one business day.
+                </p>
+                <a
+                  href="mailto:contact@omnikeea.com?subject=Integration%20enquiry&body=Hi%20Omnikeea%20team%2C%0A%0AName%3A%0ACompany%3A%0AWhat%20we%27re%20trying%20to%20integrate%3A%0A%0A"
+                  className="btn btn-primary"
+                  style={{ marginTop: 6 }}
+                >
+                  Email contact@omnikeea.com
+                </a>
+              </div>
             </div>
 
             <div className="form-meta reveal">
