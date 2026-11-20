@@ -23,7 +23,7 @@ export default function Radar() {
 
     // Mint primary (#3ee0b3 / #5eead4) · Coral secondary (#f57360) · Slate (#94a3b8)
     const nodes: Node[] = [
-      { label: 'Omnikeea', sub: 'API Hub', r: 0.0, a: 0, lit: false, pulse: 0, color: '#3ee0b3' },
+      { label: 'Chyianaquia', sub: 'API Hub', r: 0.0, a: 0, lit: false, pulse: 0, color: '#3ee0b3' },
       { label: 'Merchant', sub: 'E-Commerce', r: 0.52, a: 0.55, lit: false, pulse: 0, color: '#94a3b8' },
       { label: 'PSP Alpha', sub: 'Licensed Partner', r: 0.58, a: 2.10, lit: false, pulse: 0, color: '#f57360' },
       { label: 'PSP Beta', sub: 'Licensed Partner', r: 0.55, a: 3.70, lit: false, pulse: 0, color: '#f57360' },

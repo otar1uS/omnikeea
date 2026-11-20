@@ -52,9 +52,9 @@ const steps = [
 ];
 
 const faqs = [
-  { q: 'How does Omnikeea improve technical performance?', a: 'By coordinating technical workflows intelligently — sequencing calls, applying configurable rules and using fallbacks — Omnikeea helps you get more out of the licensed third-party providers you already work with.' },
-  { q: 'Will this disrupt my existing provider setup?', a: 'No. Omnikeea is designed to sit alongside the licensed third-party providers you already use, layering integration tooling over them rather than replacing them.' },
-  { q: 'Is the solution suitable for global e-commerce?', a: 'Yes — Omnikeea operates globally, excluding a small number of restricted territories listed in our footer, and is built for region-aware checkout journeys.' },
+  { q: 'How does Chyianaquia improve technical performance?', a: 'By coordinating technical workflows intelligently — sequencing calls, applying configurable rules and using fallbacks — Chyianaquia helps you get more out of the licensed third-party providers you already work with.' },
+  { q: 'Will this disrupt my existing provider setup?', a: 'No. Chyianaquia is designed to sit alongside the licensed third-party providers you already use, layering integration tooling over them rather than replacing them.' },
+  { q: 'Is the solution suitable for global e-commerce?', a: 'Yes — Chyianaquia operates globally, excluding a small number of restricted territories listed in our footer, and is built for region-aware checkout journeys.' },
   { q: 'What does "protect platforms" actually mean here?', a: 'It refers to the technical signals and data exchange we surface across the integration — useful for your team and the licensed third-party providers who carry out the regulated risk operations.' },
 ];
 
@@ -196,7 +196,7 @@ export default function SolutionPage() {
       <Cta
         eyebrow="Get started"
         title={<>Tell us what you want to <span className="grad">optimise.</span></>}
-        body="Our technical team will walk you through how Omnikeea can support your e-commerce integration."
+        body="Our technical team will walk you through how Chyianaquia can support your e-commerce integration."
         primaryHref="/contact"
         primaryLabel="Contact us"
         secondaryHref="/product"

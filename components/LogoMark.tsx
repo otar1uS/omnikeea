@@ -22,18 +22,11 @@ export default function LogoMark({ className = 'logo-mark' }: { className?: stri
       <rect x="1" y="1" width="34" height="34" rx="9" fill="url(#ok-glow)" opacity="0.6" />
       <rect x="1.5" y="1.5" width="33" height="33" rx="8.5" fill="none" stroke="url(#ok-stroke)" strokeWidth="1" />
 
-      {/* O ring */}
-      <circle cx="13.6" cy="18" r="7.2" fill="none" stroke="#fff" strokeWidth="2.4" strokeLinecap="round" opacity="0.96" />
+      {/* C — open ring, gap facing right */}
+      <path d="M23.3 12.7 A7.5 7.5 0 1 0 23.3 23.3" fill="none" stroke="#fff" strokeWidth="2.4" strokeLinecap="round" opacity="0.96" />
 
-      {/* K — vertical bar + two diagonals meeting at the spine midpoint */}
-      <g stroke="#fff" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none">
-        <path d="M22.4 11.2 L22.4 24.8" />
-        <path d="M22.4 18 L28.4 11.4" />
-        <path d="M22.4 18 L28.4 24.6" />
-      </g>
-
-      {/* Tiny accent dot — keeps the network/node hint */}
-      <circle cx="13.6" cy="10.8" r="1.4" fill="#fff" opacity="0.92" />
+      {/* Tiny accent dot in the gap — keeps the network/node hint */}
+      <circle cx="25.5" cy="18" r="1.4" fill="#fff" opacity="0.92" />
     </svg>
   );
 }

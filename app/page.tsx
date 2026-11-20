@@ -25,7 +25,7 @@ export default function HomePage() {
                 with licensed financial service providers
               </h1>
               <p className="hero-sub">
-                Omnikeea LTD provides technical connectivity tools that help businesses integrate their systems with licensed third-party financial service providers — securely, scalably, and globally.
+                Chyianaquia LTD provides technical connectivity tools that help businesses integrate their systems with licensed third-party financial service providers — securely, scalably, and globally.
               </p>
               <div className="hero-actions">
                 <Link href="/contact" className="btn btn-primary">Contact us</Link>
@@ -57,13 +57,13 @@ export default function HomePage() {
         <div className="container">
           <div className="what-grid">
             <div className="reveal">
-              <div className="eyebrow">About Omnikeea</div>
+              <div className="eyebrow">About Chyianaquia</div>
               <h2 className="h2" style={{ marginBottom: 24 }}>Advanced integration technology for online platforms</h2>
               <p className="lead" style={{ marginBottom: 24 }}>
-                Omnikeea LTD develops software infrastructure that enables businesses to connect their systems with licensed third-party financial service providers. Our tools focus on API connectivity, workflow automation, system behaviour analytics, and secure communication interfaces.
+                Chyianaquia LTD develops software infrastructure that enables businesses to connect their systems with licensed third-party financial service providers. Our tools focus on API connectivity, workflow automation, system behaviour analytics, and secure communication interfaces.
               </p>
               <p className="lead" style={{ fontSize: 15 }}>
-                We do not process, store, transmit, or handle financial transactions. All regulated financial operations are performed solely by licensed institutions. Omnikeea is a technology-only, non-financial entity, delivering the technical layer that supports integrations within global financial ecosystems.
+                We do not process, store, transmit, or handle financial transactions. All regulated financial operations are performed solely by licensed institutions. Chyianaquia is a technology-only, non-financial entity, delivering the technical layer that supports integrations within global financial ecosystems.
               </p>
               <br />
               <Link href="/solution" className="btn btn-outline">Explore the platform →</Link>
@@ -162,7 +162,7 @@ export default function HomePage() {
 
           <div className="mod-disclaimer reveal">
             <div>
-              <strong>How we fit in:</strong> Omnikeea is a pure technology provider. We do not process, store, transmit, or handle financial transactions. All regulated financial services are performed exclusively by licensed third-party institutions. Our role is limited to providing software tools and integration technology.
+              <strong>How we fit in:</strong> Chyianaquia is a pure technology provider. We do not process, store, transmit, or handle financial transactions. All regulated financial services are performed exclusively by licensed third-party institutions. Our role is limited to providing software tools and integration technology.
             </div>
           </div>
         </div>
@@ -230,7 +230,7 @@ export default function HomePage() {
                 </div>
                 <div className="resp-arrow">↕</div>
                 <div className="resp-layer omni">
-                  <div className="resp-layer-tag">Omnikeea LTD</div>
+                  <div className="resp-layer-tag">Chyianaquia LTD</div>
                   <div className="resp-layer-name">Technical Integration Layer</div>
                   <div className="resp-layer-desc">API integration, data-exchange components, analytics and operational tooling — the software backbone that ties everything together.</div>
                 </div>

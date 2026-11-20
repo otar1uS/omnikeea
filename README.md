@@ -1,6 +1,6 @@
-# Omnikeea LTD — Marketing Site
+# Chyianaquia LTD — Marketing Site
 
-A multi-page Next.js (App Router, TypeScript) marketing site for Omnikeea LTD — a pure technology provider delivering integration technology for online platforms (technology only, non-financial entity; we do not process, store, transmit or handle financial transactions).
+A multi-page Next.js (App Router, TypeScript) marketing site for Chyianaquia LTD — a pure technology provider delivering integration technology for online platforms (technology only, non-financial entity; we do not process, store, transmit or handle financial transactions).
 
 ## Pages
 
@@ -27,6 +27,7 @@ Open http://localhost:3000.
 
 ## Notes
 
+- The site domain and contact email addresses live in `lib/company.ts`.
 - Sanctioned-country list lives in `lib/sanctions.ts` and is rendered in the footer of every page.
 - The contact API route logs payloads — wire up Resend/Postmark/HubSpot in `app/api/contact/route.ts` for production.
 - Design system (tokens, components) is fully expressed in `app/globals.css`.

@@ -14,7 +14,7 @@ function updatePage(path, title, lead) {
 try {
   updatePage('app/product/orchestration/page.tsx', 'Unified Integration Layer', 'A unified integration layer for managing connections with licensed third-party providers.');
   updatePage('app/product/dynamic-cashier/page.tsx', 'Dynamic Cashier', 'Deliver seamless, localised checkout experiences.');
-  updatePage('app/product/white-label/page.tsx', 'White Label', 'Launch and scale your own branded technology platform with Omnikeea.');
+  updatePage('app/product/white-label/page.tsx', 'White Label', 'Launch and scale your own branded technology platform with Chyianaquia.');
 } catch (e) { console.log(e); }
 
 function updateSol(path, title, lead) {

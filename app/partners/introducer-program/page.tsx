@@ -7,7 +7,7 @@ export default function SubPage() {
       <PageHero
         eyebrow="Partners / Introducer Program"
         title={<><span className="grad">Introducer Program</span></>}
-        lead="Refer merchants and unlock new revenue opportunities with Omnikeea."
+        lead="Refer merchants and unlock new revenue opportunities with Chyianaquia."
       />
 
       <section className="section-pad">
@@ -27,7 +27,7 @@ export default function SubPage() {
           <div className="reveal" style={{ marginTop: 60, padding: 40, background: 'var(--bg2)', border: '1px solid var(--border)', borderRadius: 16 }}>
             <h3 style={{ fontFamily: 'var(--ff-head)', fontSize: 24, marginBottom: 16 }}>Technical implementation</h3>
             <p style={{ color: 'var(--text-mid)', lineHeight: 1.7, marginBottom: 24 }}>
-              Omnikeea provides the technical software infrastructure necessary to deploy this capability globally. Our system operates purely as a technology layer — we do not process, store, transmit or handle financial transactions, hold balances, or act as a merchant of record. All regulated financial operations are performed exclusively by your licensed third-party providers.
+              Chyianaquia provides the technical software infrastructure necessary to deploy this capability globally. Our system operates purely as a technology layer — we do not process, store, transmit or handle financial transactions, hold balances, or act as a merchant of record. All regulated financial operations are performed exclusively by your licensed third-party providers.
             </p>
             <Link href="/contact" className="btn btn-primary">Discuss Integration</Link>
           </div>
@@ -38,7 +38,7 @@ export default function SubPage() {
         <div className="container">
           <div className="sec-head reveal">
             <div>
-              <h2 className="h2">Why choose Omnikeea?</h2>
+              <h2 className="h2">Why choose Chyianaquia?</h2>
             </div>
             <div>
               <p className="lead">Built for scale, security, and maximum technical performance across all markets.</p>

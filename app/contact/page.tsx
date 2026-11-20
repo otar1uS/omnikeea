@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
+import { COMPANY } from "@/lib/company";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Talk to the Omnikeea engineering team about your e-commerce integration.",
+    "Talk to the Chyianaquia engineering team about your e-commerce integration.",
 };
 
 export default function ContactPage() {
@@ -32,11 +33,11 @@ export default function ContactPage() {
                   get back to you within one business day.
                 </p>
                 <a
-                  href="mailto:contact@omnikeea.com?subject=Integration%20enquiry&body=Hi%20Omnikeea%20team%2C%0A%0AName%3A%0ACompany%3A%0AWhat%20we%27re%20trying%20to%20integrate%3A%0A%0A"
+                  href={`mailto:${COMPANY.email.contact}?subject=Integration%20enquiry&body=Hi%20Chyianaquia%20team%2C%0A%0AName%3A%0ACompany%3A%0AWhat%20we%27re%20trying%20to%20integrate%3A%0A%0A`}
                   className="btn btn-primary"
                   style={{ marginTop: 6 }}
                 >
-                  Email contact@omnikeea.com
+                  Email {COMPANY.email.contact}
                 </a>
               </div>
             </div>
@@ -46,7 +47,7 @@ export default function ContactPage() {
                 <h4>Direct email</h4>
                 <p>
                   For general enquiries:{" "}
-                  <a href="mailto:contact@omnikeea.com">contact@omnikeea.com</a>
+                  <a href={`mailto:${COMPANY.email.contact}`}>{COMPANY.email.contact}</a>
                 </p>
               </div>
 
@@ -56,7 +57,7 @@ export default function ContactPage() {
               >
                 <h4 style={{ color: "var(--cyan)" }}>Important</h4>
                 <p>
-                  Omnikeea LTD is a technology provider only. We do not process,
+                  Chyianaquia LTD is a technology provider only. We do not process,
                   store, transmit or handle financial transactions and cannot
                   assist with disputes, chargebacks, refunds, or any
                   financial-operations queries. Please contact your licensed

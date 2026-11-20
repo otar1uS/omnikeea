@@ -22,7 +22,7 @@ const productItems = [
   },
   {
     title: 'White Label',
-    desc: 'Launch and scale your own branded technology platform with Omnikeea',
+    desc: 'Launch and scale your own branded technology platform with Chyianaquia',
     href: '/product/white-label',
     d: 'M3 7h18M3 12h18M3 17h12',
   },
@@ -82,7 +82,7 @@ const links: DropdownLink[] = [
     items: productItems,
     viewAllLabel: 'View all products',
     viewAllHref: '/product',
-    pageDesc: 'Explore Omnikeea\'s integration technology platform, including the integration layer, dynamic cashier and white label tools built to optimise technical performance and scale globally.',
+    pageDesc: 'Explore Chyianaquia\'s integration technology platform, including the integration layer, dynamic cashier and white label tools built to optimise technical performance and scale globally.',
   },
   {
     href: '/solution',
@@ -98,7 +98,7 @@ const links: DropdownLink[] = [
     items: partnerItems,
     viewAllLabel: 'View all partners',
     viewAllHref: '/partners',
-    pageDesc: 'Partner with Omnikeea to deliver and monetise advanced integration technology through our flexible Introducer programme.',
+    pageDesc: 'Partner with Chyianaquia to deliver and monetise advanced integration technology through our flexible Introducer programme.',
   },
   { href: '/careers', label: 'Careers' },
 ];
@@ -145,9 +145,9 @@ export default function Nav() {
   return (
     <>
       <nav className="nav">
-        <Link href="/" className="nav-logo" aria-label="Omnikeea — Home">
+        <Link href="/" className="nav-logo" aria-label="Chyianaquia — Home">
           <LogoMark />
-          <span className="logo-word">Omnikeea</span>
+          <span className="logo-word">Chyianaquia</span>
         </Link>
 
         {/* Desktop links */}

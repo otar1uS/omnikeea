@@ -1,6 +1,6 @@
-# Omnikeea — Branding Package
+# Chyianaquia — Branding Package
 
-A drop-in kit containing the Omnikeea logo (vector + raster), favicon set, and
+A drop-in kit containing the Chyianaquia logo (vector + raster), favicon set, and
 brand colour tokens. Everything here is final-export quality; nothing references
 project-internal paths or build steps.
 
@@ -9,35 +9,35 @@ project-internal paths or build steps.
 ```
 branding/
 ├── logo/
-│   ├── omnikeea-mark.svg                  Square mark, full-colour gradient (master)
-│   ├── omnikeea-mark-mono-light.svg       Square mark on solid dark tile (for light bg)
-│   ├── omnikeea-mark-mono-dark.svg        Outlined mark for dark surfaces
-│   ├── omnikeea-mark-1024.png             Mark @ 1024 px
-│   ├── omnikeea-mark-512.png              Mark @ 512 px
-│   ├── omnikeea-mark-256.png              Mark @ 256 px
-│   ├── omnikeea-mark-mono-light-512.png   Mono mark @ 512 px
-│   ├── omnikeea-wordmark.svg              Mark + "Omnikeea" wordmark (dark theme)
-│   ├── omnikeea-wordmark-light.svg        Mark + "Omnikeea" wordmark (light theme)
-│   ├── omnikeea-wordmark-2400.png         Wordmark @ 2400 × 600
-│   ├── omnikeea-wordmark-1200.png         Wordmark @ 1200 × 300
-│   └── omnikeea-wordmark-light-1200.png   Light-theme wordmark @ 1200 × 300
+│   ├── chyianaquia-mark.svg                  Square mark, full-colour gradient (master)
+│   ├── chyianaquia-mark-mono-light.svg       Square mark on solid dark tile (for light bg)
+│   ├── chyianaquia-mark-mono-dark.svg        Outlined mark for dark surfaces
+│   ├── chyianaquia-mark-1024.png             Mark @ 1024 px
+│   ├── chyianaquia-mark-512.png              Mark @ 512 px
+│   ├── chyianaquia-mark-256.png              Mark @ 256 px
+│   ├── chyianaquia-mark-mono-light-512.png   Mono mark @ 512 px
+│   ├── chyianaquia-wordmark.svg              Mark + "Chyianaquia" wordmark (dark theme)
+│   ├── chyianaquia-wordmark-light.svg        Mark + "Chyianaquia" wordmark (light theme)
+│   ├── chyianaquia-wordmark-2400.png         Wordmark @ 2400 × 600
+│   ├── chyianaquia-wordmark-1200.png         Wordmark @ 1200 × 300
+│   └── chyianaquia-wordmark-light-1200.png   Light-theme wordmark @ 1200 × 300
 │
 ├── favicon/
-│   ├── favicon.svg                        Vector favicon (modern browsers)
-│   ├── favicon.ico                        Multi-size .ico (16/32/48)
+│   ├── favicon.svg                           Vector favicon (modern browsers)
+│   ├── favicon.ico                           Multi-size .ico (16/32/48)
 │   ├── favicon-16.png
 │   ├── favicon-32.png
 │   ├── favicon-48.png
 │   ├── favicon-64.png
 │   ├── favicon-96.png
 │   ├── favicon-256.png
-│   ├── apple-touch-icon-180.png           iOS home-screen icon
-│   ├── android-chrome-192.png             PWA / Android
-│   └── android-chrome-512.png             PWA / Android (high-res)
+│   ├── apple-touch-icon-180.png              iOS home-screen icon
+│   ├── android-chrome-192.png                PWA / Android
+│   └── android-chrome-512.png                PWA / Android (high-res)
 │
 └── colors/
-    ├── colors.css                         CSS custom properties (drop into any project)
-    └── colors.md                          Human-readable palette reference
+    ├── colors.css                            CSS custom properties (drop into any project)
+    └── colors.md                             Human-readable palette reference
 ```
 
 ## Quick reference
@@ -49,7 +49,7 @@ branding/
 
 ## Logo usage
 
-- **Master file:** `logo/omnikeea-mark.svg`. Scale freely — it is fully vector.
+- **Master file:** `logo/chyianaquia-mark.svg`. Scale freely — it is fully vector.
 - Keep clear-space around the mark equal to **¼ of its width** on every side.
 - Minimum displayed size: **24 px** for the favicon mark, **120 px** for the
   wordmark (so the text stays legible).

@@ -5,7 +5,7 @@ import Cta from '@/components/Cta';
 export const metadata: Metadata = {
   title: 'Our Product',
   description:
-    'Omnikeea’s product family — Integration Layer, Dynamic Cashier and White Label — software that helps e-commerce businesses integrate with their licensed third-party service providers.',
+    'Chyianaquia’s product family — Integration Layer, Dynamic Cashier and White Label — software that helps e-commerce businesses integrate with their licensed third-party service providers.',
 };
 
 const family = [
@@ -21,7 +21,7 @@ const family = [
   },
   {
     title: 'White Label',
-    body: 'Launch and scale your own branded technology platform with Omnikeea. A fully brandable software toolkit that lets your team ship integration tooling under your own name.',
+    body: 'Launch and scale your own branded technology platform with Chyianaquia. A fully brandable software toolkit that lets your team ship integration tooling under your own name.',
     d: 'M3 7h18M3 12h18M3 17h12',
   },
 ];
@@ -60,7 +60,7 @@ const features = [
 ];
 
 const steps = [
-  { n: '01', title: 'Connect once', body: 'Integrate the Omnikeea API into your e-commerce platform with a single technical onboarding.' },
+  { n: '01', title: 'Connect once', body: 'Integrate the Chyianaquia API into your e-commerce platform with a single technical onboarding.' },
   { n: '02', title: 'Configure providers', body: 'Map your existing licensed third-party service providers into the integration layer — no rebuild required.' },
   { n: '03', title: 'Deploy integration rules', body: 'Define how technical workflows move across providers, regions and conditions through versioned, reversible configuration.' },
   { n: '04', title: 'Observe and iterate', body: 'Monitor technical performance in real time, adjust rules and ship improvements without re-engineering integrations.' },
@@ -74,10 +74,10 @@ const cases = [
 ];
 
 const faqs = [
-  { q: 'What does Omnikeea actually do?', a: 'Omnikeea provides software infrastructure — an integration layer, dynamic cashier and white-label tooling — that sits between your e-commerce platform and the licensed third-party service providers you work with. We do not process, store, transmit or handle financial transactions.' },
-  { q: 'Do I need to replace my existing service providers?', a: 'No. Omnikeea is designed to sit alongside the licensed third-party providers you already work with, coordinating technical workflows and adding integration capabilities without forcing migration.' },
+  { q: 'What does Chyianaquia actually do?', a: 'Chyianaquia provides software infrastructure — an integration layer, dynamic cashier and white-label tooling — that sits between your e-commerce platform and the licensed third-party service providers you work with. We do not process, store, transmit or handle financial transactions.' },
+  { q: 'Do I need to replace my existing service providers?', a: 'No. Chyianaquia is designed to sit alongside the licensed third-party providers you already work with, coordinating technical workflows and adding integration capabilities without forcing migration.' },
   { q: 'How long does integration take?', a: 'A single API integration is enough to unlock the full product family. Most teams reach a production-ready integration within a few weeks of technical onboarding.' },
-  { q: 'Is the platform global?', a: 'Yes — Omnikeea operates globally, with the exception of a small number of restricted territories listed in our footer.' },
+  { q: 'Is the platform global?', a: 'Yes — Chyianaquia operates globally, with the exception of a small number of restricted territories listed in our footer.' },
   { q: 'How do you work with licensed partners?', a: 'We provide the technical integration software; all regulated financial operations are performed exclusively by licensed third-party institutions.' },
 ];
 
@@ -87,7 +87,7 @@ export default function ProductPage() {
       <PageHero
         eyebrow="Our Products"
         title={<>A modern <span className="grad">product family</span> for e-commerce integrations</>}
-        lead="Explore Omnikeea’s integration technology platform — the Integration Layer, Dynamic Cashier and White Label — built to optimise technical performance and scale globally."
+        lead="Explore Chyianaquia’s integration technology platform — the Integration Layer, Dynamic Cashier and White Label — built to optimise technical performance and scale globally."
       />
 
       <section className="section-pad">
@@ -177,20 +177,20 @@ export default function ProductPage() {
               <div className="eyebrow">How it fits together</div>
               <h2 className="h2" style={{ marginBottom: 20 }}>A clean software layer between merchants and licensed third-party providers</h2>
               <p className="lead" style={{ marginBottom: 24 }}>
-                Omnikeea provides the integration software. All regulated financial operations are performed exclusively by your licensed third-party providers — clearly separated, cleanly integrated.
+                Chyianaquia provides the integration software. All regulated financial operations are performed exclusively by your licensed third-party providers — clearly separated, cleanly integrated.
               </p>
               <div className="framework-steps">
                 <div className="fw-step">
                   <div className="fw-step-num">01</div>
                   <div className="fw-step-content">
                     <h4>Merchants integrate once</h4>
-                    <p>Your e-commerce platform connects to a single Omnikeea API to access the full product family.</p>
+                    <p>Your e-commerce platform connects to a single Chyianaquia API to access the full product family.</p>
                   </div>
                 </div>
                 <div className="fw-step">
                   <div className="fw-step-num">02</div>
                   <div className="fw-step-content">
-                    <h4>Omnikeea coordinates technical workflows</h4>
+                    <h4>Chyianaquia coordinates technical workflows</h4>
                     <p>Configurable rules, retries, observability and data exchange run in our software layer.</p>
                   </div>
                 </div>
@@ -213,7 +213,7 @@ export default function ProductPage() {
               </div>
               <div className="resp-arrow">↓</div>
               <div className="resp-layer omni">
-                <div className="resp-layer-tag">Omnikeea</div>
+                <div className="resp-layer-tag">Chyianaquia</div>
                 <div className="resp-layer-name">Software & integration layer</div>
                 <div className="resp-layer-desc">Provides API integration, configurable workflow rules, observability and data exchange.</div>
               </div>

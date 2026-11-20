@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484 484" width="484" height="484">
+  <title>Chyianaquia</title>
+  <defs>
+    <linearGradient id="chq-grad" x1="-14" y1="-14" x2="498" y2="498" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3aebc0"/>
+      <stop offset="0.55" stop-color="#00d9a7"/>
+      <stop offset="1" stop-color="#d97a4f"/>
+    </linearGradient>
+    <linearGradient id="chq-edge" x1="0" y1="-14" x2="0" y2="498" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="chq-glow" cx="0.4" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+    <rect width="484" height="484" rx="128" fill="url(#chq-grad)"/>
+    <rect width="484" height="484" rx="128" fill="url(#chq-glow)" opacity="0.6"/>
+    <rect x="7" y="7" width="470" height="470" rx="121" fill="none" stroke="url(#chq-edge)" stroke-width="14"/>
+    <path d="M317.7 166.3A107 107 0 1 0 317.7 317.7" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round" opacity="0.96"/>
+    <circle cx="349" cy="242" r="20" fill="#ffffff" opacity="0.92"/>
+</svg>

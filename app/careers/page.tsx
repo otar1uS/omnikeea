@@ -6,7 +6,7 @@ import Cta from '@/components/Cta';
 export const metadata: Metadata = {
   title: 'Careers',
   description:
-    'Join Omnikeea LTD. We are hiring a Social Media Content Editor to help shape the voice of our integration technology brand.',
+    'Join Chyianaquia LTD. We are hiring a Social Media Content Editor to help shape the voice of our integration technology brand.',
 };
 
 export default function CareersPage() {
@@ -29,7 +29,7 @@ export default function CareersPage() {
 
             <h4 style={{ marginTop: 32, marginBottom: 12 }}>About the role</h4>
             <p style={{ marginBottom: 16 }}>
-              You will own Omnikeea&apos;s social presence end-to-end — planning, writing, editing and publishing content across our channels. You will translate technical concepts (integration tooling, API connectivity, infrastructure) into clear, engaging content for a B2B audience.
+              You will own Chyianaquia&apos;s social presence end-to-end — planning, writing, editing and publishing content across our channels. You will translate technical concepts (integration tooling, API connectivity, infrastructure) into clear, engaging content for a B2B audience.
             </p>
 
             <h4 style={{ marginTop: 28, marginBottom: 12 }}>What you will do</h4>
@@ -61,7 +61,7 @@ export default function CareersPage() {
       <Cta
         eyebrow="Don't see a fit?"
         title={<>We still want to <span className="grad">hear from you.</span></>}
-        body="If you think you can add something to Omnikeea, reach out and tell us how."
+        body="If you think you can add something to Chyianaquia, reach out and tell us how."
         primaryHref="/contact"
         primaryLabel="Contact us"
         secondaryHref="/product"

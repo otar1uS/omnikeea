@@ -1,6 +1,6 @@
-# Omnikeea — Theme Colors
+# Chyianaquia — Theme Colors
 
-The Omnikeea palette is built around a deep near-black backdrop with a vivid
+The Chyianaquia palette is built around a deep near-black backdrop with a vivid
 mint/teal accent and a warm coral used only inside the logo gradient.
 
 ## Brand accents

@@ -1,9 +1,10 @@
 import type { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/company';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://omnikeea.com';
+  const base = SITE_URL;
   const routes = [
     '',
     '/product',

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import LogoMark from './LogoMark';
 import { SANCTIONED_COUNTRIES } from '@/lib/sanctions';
+import { COMPANY } from '@/lib/company';
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="footer-logo">
               <LogoMark />
-              <span className="logo-word">Omnikeea</span>
+              <span className="logo-word">Chyianaquia</span>
             </Link>
             <p className="footer-desc">
               Advanced integration technology for online platforms — software infrastructure that connects business systems with licensed third-party financial service providers.
@@ -47,7 +48,7 @@ export default function Footer() {
           <div className="footer-col">
             <h5>Contact</h5>
             <ul>
-              <li><a href="mailto:contact@omnikeea.com">contact@omnikeea.com</a></li>
+              <li><a href={`mailto:${COMPANY.email.contact}`}>{COMPANY.email.contact}</a></li>
               <li><Link href="/contact">Enquiry form</Link></li>
             </ul>
           </div>
@@ -58,7 +59,7 @@ export default function Footer() {
         <div className="footer-sanctions">
           <div className="footer-sanctions-label">Compliance Notice</div>
           <ul className="footer-sanctions-text" style={{ listStyle: 'disc', paddingLeft: 20, margin: 0, display: 'grid', gap: 6 }}>
-            <li>Omnikeea LTD is a pure technology provider. We do not process, store, transmit, or handle financial transactions.</li>
+            <li>Chyianaquia LTD is a pure technology provider. We do not process, store, transmit, or handle financial transactions.</li>
             <li>All regulated financial services are performed exclusively by licensed third-party institutions.</li>
             <li>Our role is limited to providing software tools and integration technology.</li>
           </ul>
@@ -74,7 +75,7 @@ export default function Footer() {
         <div className="footer-line" />
 
         <div className="footer-bottom">
-          <div>© {new Date().getFullYear()} Omnikeea LTD. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Chyianaquia LTD. All rights reserved.</div>
           <div className="footer-legal">
             <Link href="/legal/privacy">Privacy Policy</Link>
             <Link href="/legal/terms">Terms of Services</Link>

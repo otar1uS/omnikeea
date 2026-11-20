@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
+import { COMPANY } from '@/lib/company';
 
 export const metadata: Metadata = {
   title: 'Disclaimer',
-  description: 'Disclaimer of Omnikeea LTD.',
+  description: 'Disclaimer of Chyianaquia LTD.',
 };
 
 export default function DisclaimerPage() {
@@ -12,7 +13,7 @@ export default function DisclaimerPage() {
       <PageHero
         eyebrow="Legal"
         title={<>Disclaimer</>}
-        lead="Important information about the role and limitations of Omnikeea LTD as a technology provider."
+        lead="Important information about the role and limitations of Chyianaquia LTD as a technology provider."
       />
 
       <section className="section-pad">
@@ -20,7 +21,7 @@ export default function DisclaimerPage() {
           <article className="reveal" style={{ display: 'grid', gap: 20 }}>
             <div className="mod-disclaimer" style={{ marginTop: 0 }}>
               <ul style={{ paddingLeft: 20, margin: 0, display: 'grid', gap: 10 }}>
-                <li>Omnikeea LTD is a pure technology provider. We do not process, store, transmit, or handle financial transactions.</li>
+                <li>Chyianaquia LTD is a pure technology provider. We do not process, store, transmit, or handle financial transactions.</li>
                 <li>All regulated financial services are performed exclusively by licensed third-party institutions.</li>
                 <li>Our role is limited to providing software tools and integration technology.</li>
               </ul>
@@ -28,7 +29,7 @@ export default function DisclaimerPage() {
 
             <h3>1. Technology-only provider</h3>
             <p>
-              Omnikeea LTD is a technology company providing software infrastructure and integration tooling. Omnikeea LTD is not a bank, payment institution, electronic money institution, or any other type of regulated financial entity. Omnikeea LTD does not process, store, transmit or handle financial transactions.
+              Chyianaquia LTD is a technology company providing software infrastructure and integration tooling. Chyianaquia LTD is not a bank, payment institution, electronic money institution, or any other type of regulated financial entity. Chyianaquia LTD does not process, store, transmit or handle financial transactions.
             </p>
 
             <h3>2. Role of licensed third-party providers</h3>
@@ -43,7 +44,7 @@ export default function DisclaimerPage() {
 
             <h3>4. Geographic restrictions</h3>
             <p>
-              Omnikeea LTD operates globally except in the territories listed in the footer of this website. Services are not offered, marketed or made available in those restricted territories.
+              Chyianaquia LTD operates globally except in the territories listed in the footer of this website. Services are not offered, marketed or made available in those restricted territories.
             </p>
 
             <h3>5. No warranties</h3>
@@ -53,12 +54,12 @@ export default function DisclaimerPage() {
 
             <h3>6. Third-party links</h3>
             <p>
-              This website may contain links to third-party websites. Omnikeea LTD has no control over the content of those sites and accepts no responsibility for them.
+              This website may contain links to third-party websites. Chyianaquia LTD has no control over the content of those sites and accepts no responsibility for them.
             </p>
 
             <h3>7. Contact</h3>
             <p>
-              For questions about this Disclaimer, contact us at <a href="mailto:contact@omnikeea.com">contact@omnikeea.com</a>.
+              For questions about this Disclaimer, contact us at <a href={`mailto:${COMPANY.email.contact}`}>{COMPANY.email.contact}</a>.
             </p>
           </article>
         </div>

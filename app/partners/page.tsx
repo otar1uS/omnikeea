@@ -5,7 +5,7 @@ import Cta from '@/components/Cta';
 export const metadata: Metadata = {
   title: 'For Partners — Introducer Program',
   description:
-    'Refer e-commerce merchants to Omnikeea LTD and unlock new revenue opportunities. A simple introducer program for consultants, agencies and integrators.',
+    'Refer e-commerce merchants to Chyianaquia LTD and unlock new revenue opportunities. A simple introducer program for consultants, agencies and integrators.',
 };
 
 const benefits = [
@@ -51,7 +51,7 @@ const steps = [
 const audiences = [
   { tag: 'Consultants', title: 'Integration & e-commerce consultants', body: 'Bring clients a modern technical option that complements their existing licensed third-party providers.' },
   { tag: 'Agencies', title: 'Digital & e-commerce agencies', body: 'Add a serious integration partner to the stack you recommend to your merchant clients.' },
-  { tag: 'Integrators', title: 'Systems integrators', body: 'Plug Omnikeea into integrations you ship — clean APIs, reliable infrastructure, observable workflows.' },
+  { tag: 'Integrators', title: 'Systems integrators', body: 'Plug Chyianaquia into integrations you ship — clean APIs, reliable infrastructure, observable workflows.' },
   { tag: 'Advisors', title: 'Independent advisors', body: 'Refer e-commerce operators looking to consolidate technical complexity across their licensed third-party provider network.' },
 ];
 
@@ -77,7 +77,7 @@ export default function PartnersPage() {
           <div className="modules-header">
             <div className="reveal">
               <div className="eyebrow">Introducer Program</div>
-              <h2 className="h2">A simple way to introduce merchants to Omnikeea</h2>
+              <h2 className="h2">A simple way to introduce merchants to Chyianaquia</h2>
             </div>
             <div className="reveal">
               <p className="lead">

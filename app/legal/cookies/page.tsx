@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
+import { COMPANY } from '@/lib/company';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy',
-  description: 'Cookie Policy of Omnikeea LTD.',
+  description: 'Cookie Policy of Chyianaquia LTD.',
 };
 
 export default function CookiePolicyPage() {
@@ -12,7 +13,7 @@ export default function CookiePolicyPage() {
       <PageHero
         eyebrow="Legal"
         title={<>Cookie Policy</>}
-        lead="This Cookie Policy explains how Omnikeea LTD uses cookies and similar technologies on this website."
+        lead="This Cookie Policy explains how Chyianaquia LTD uses cookies and similar technologies on this website."
       />
 
       <section className="section-pad">
@@ -25,7 +26,7 @@ export default function CookiePolicyPage() {
 
             <h3>2. How we use cookies</h3>
             <p>
-              We use a limited number of cookies that are strictly necessary to operate this website, plus optional cookies that help us understand how visitors interact with our pages. We do not use cookies to process or store financial information — Omnikeea LTD is a technology provider only and does not handle financial transactions.
+              We use a limited number of cookies that are strictly necessary to operate this website, plus optional cookies that help us understand how visitors interact with our pages. We do not use cookies to process or store financial information — Chyianaquia LTD is a technology provider only and does not handle financial transactions.
             </p>
 
             <h3>3. Categories of cookies</h3>
@@ -47,7 +48,7 @@ export default function CookiePolicyPage() {
 
             <h3>6. Contact</h3>
             <p>
-              For questions about this Cookie Policy, contact us at <a href="mailto:contact@omnikeea.com">contact@omnikeea.com</a>.
+              For questions about this Cookie Policy, contact us at <a href={`mailto:${COMPANY.email.contact}`}>{COMPANY.email.contact}</a>.
             </p>
           </article>
         </div>
